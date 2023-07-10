@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-containar {
+  background-color: grey;
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  align-items: ce;
+}
+.nav-menus {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.banner-containar {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("/asset/image/background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.mehedi {
+  color: red;
+}
+.btn-primary {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+}
+/* .btn-secondary{
+  padding: 20px 30px;
+  border: none;
+} */
+.btn-secondary {
+  width: 200px;
+  height: 50px;
+}
+.mouse {
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  align-items: center;
+  margin-top: 10px;
+}
+.title {
+  font-size: 70px;
+  font-weight: bold;
+  color:white;
+}
+.kabir-singh {
+  font-size: 17px;
+}
+.main-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("/asset/image/footer-bg.png");
+  background-blend-mode: overlay;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.left-side-containar{
+    color: white;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.icon{
+    height: 200px;
+    padding: 20px;
+    
+}
+.service-content{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    margin-top: 7px;
+    gap: 7px;
+}
