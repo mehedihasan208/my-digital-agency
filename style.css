@@ -103,3 +103,19 @@
     margin-top: 7px;
     gap: 7px;
 }
+.author-containar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.author-img{
+ height: 70px;
+ width: 70px;
+ border-radius: 40px;
+}
+.profile-containar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-right: 3px solid red;
+}
